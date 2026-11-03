@@ -1,0 +1,62 @@
+Step 1: Create a new repository on GitHub
+1. Open GitHub – New Repository.
+2. Enter your repository name.
+3. Select Public or Private.
+4. Do not select README, .gitignore, or License.
+5. Click Create repository.
+6. Copy your repository URL.
+Example:
+https://github.com/username/project.git
+
+
+Step 2: Open Git Bash in your folder
+Example folder location:
+C:\hello
+
+
+Open that folder, right-click and select Git Bash Here.
+
+Or navigate using:
+cd /c/hello
+
+
+Step 3: Initialize Git
+git init
+
+
+Step 4: Configure your Git username and email
+Use your actual GitHub username and email.
+git config --global user.name "Your Name"
+
+
+git config --global user.email "your-email@gmail.com"
+
+
+Step 5: Add all files and folders
+git add .
+
+
+Step 6: Commit your files
+git commit -m "Initial upload"
+
+
+Step 7: Rename the branch to Main
+git branch -M main
+
+
+Step 8: Connect your new GitHub repository
+Replace the URL with your actual repository URL.
+git remote add origin https://github.com/username/project.git
+
+
+Step 9: Upload the folder to GitHub
+git push -u origin main
+
+IoT Project Form
+Project Form:
+https://forms.gle/oVKxSRAyrWvN5Pdg6
+Students must fill out the IoT Project Form after selecting their Mini Project and Major Project.
+
+
+TRIONIX TECH | Project Submission Form  
+https://forms.gle/Wyn2Pujk38PHy8kMA
